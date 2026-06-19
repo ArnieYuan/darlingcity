@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Edit ActivityScript</title><link rel="stylesheet" href="../styles.css"><style>body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .controls {
+            margin-bottom: 10px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        select, button {
+            padding: 8px 12px;
+            font-size: 16px;
+        }
+        button {
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #share-btn {
+            background-color: #2196F3;
+        }
+        #share-btn:hover {
+            background-color: #0b7dda;
+        }
+        textarea {
+            flex: 1;
+            width: 100%;
+            font-family: monospace;
+            font-size: 14px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: none;
+            box-sizing: border-box;
+        }
+        #status-message {
+            margin-top: 10px;
+            font-weight: bold;
+        }</style><script defer="defer" src="/edit.8331ff930bf9f07af877.js"></script></head><body><div class="container"><h1>Edit ActivityScript</h1><div class="controls"><select id="script-select"><option value="">Select a script...</option></select> <button id="save-btn">Save</button> <button id="share-btn">Share</button> <span id="status-message"></span></div><textarea id="script-editor" placeholder="Select a script to edit its JSON..."></textarea></div></body></html>
