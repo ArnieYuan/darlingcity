@@ -1,0 +1,784 @@
+{
+  "activities": [
+    {
+      "id": "3ba9c23c-3bfb-4a95-9b89-7e20fc94326e",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the cat",
+      "enableDrawing": false,
+      "backgroundIcon": "🐱",
+      "interactiveElements": [
+        {
+          "id": "f9661e31-1027-46c9-8598-bbc0622c7120",
+          "src": "Google Noto Emoji",
+          "icon": "🐴",
+          "label": "horse",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a horse."
+          }
+        },
+        {
+          "id": "c66d9be4-da66-4c89-9aa8-a8215283fb5b",
+          "src": "Google Noto Emoji",
+          "icon": "🐱",
+          "label": "cat",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the cat!"
+          }
+        },
+        {
+          "id": "6fb0197b-b2bc-45d1-87ae-9f990941c37e",
+          "src": "Google Noto Emoji",
+          "icon": "🦆",
+          "label": "duck",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a duck."
+          }
+        }
+      ]
+    },
+    {
+      "id": "c9f9607a-59ae-4f50-aceb-8dba15559589",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the dog",
+      "enableDrawing": false,
+      "backgroundIcon": "🐶",
+      "interactiveElements": [
+        {
+          "id": "3ccfc6d5-35f9-4883-a95f-8f80dfb4de44",
+          "src": "Google Noto Emoji",
+          "icon": "🐷",
+          "label": "pig",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a pig."
+          }
+        },
+        {
+          "id": "717311ca-d869-4b43-ab6d-c3c67ed92e5d",
+          "src": "Google Noto Emoji",
+          "icon": "🐶",
+          "label": "dog",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the dog!"
+          }
+        },
+        {
+          "id": "c4e79f57-eca1-492a-89bb-476e0fb530ba",
+          "src": "Google Noto Emoji",
+          "icon": "🐻",
+          "label": "bear",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a bear."
+          }
+        }
+      ]
+    },
+    {
+      "id": "f53c0457-a67d-4e57-8d15-f6e0cad57a93",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the monkey",
+      "enableDrawing": false,
+      "backgroundIcon": "🐒",
+      "interactiveElements": [
+        {
+          "id": "12712342-b1c4-4740-b340-71fccd21f14a",
+          "src": "Google Noto Emoji",
+          "icon": "🐯",
+          "label": "tiger",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a tiger."
+          }
+        },
+        {
+          "id": "193c8084-da5b-41d0-874a-da2f6da8cac4",
+          "src": "Google Noto Emoji",
+          "icon": "🐒",
+          "label": "monkey",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the monkey!"
+          }
+        },
+        {
+          "id": "c318dd59-5d71-49cc-b6af-4f3b793a45ee",
+          "src": "Google Noto Emoji",
+          "icon": "🐍",
+          "label": "snake",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a snake."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dc829b7c-736b-43a4-8af6-14d9048045f9",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the elephant",
+      "enableDrawing": false,
+      "backgroundIcon": "🐘",
+      "interactiveElements": [
+        {
+          "id": "41779fd2-3314-4ad8-adfc-d50a72025d54",
+          "src": "Google Noto Emoji",
+          "icon": "🐸",
+          "label": "frog",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a frog."
+          }
+        },
+        {
+          "id": "3a8f188b-d3c6-429a-864b-fa3c2820af0c",
+          "src": "Google Noto Emoji",
+          "icon": "🐍",
+          "label": "snake",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a snake."
+          }
+        },
+        {
+          "id": "cb8dec80-ad12-4b35-9b51-acc29523cf25",
+          "src": "Google Noto Emoji",
+          "icon": "🐘",
+          "label": "elephant",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the elephant!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5b7051f7-aa20-45de-a594-697bd75df7a9",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the lion",
+      "enableDrawing": false,
+      "backgroundIcon": "🦁",
+      "interactiveElements": [
+        {
+          "id": "b4a788cb-b5d9-4f04-971c-623215ab1aa3",
+          "src": "Google Noto Emoji",
+          "icon": "🦁",
+          "label": "lion",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the lion!"
+          }
+        },
+        {
+          "id": "1feb38d3-004f-4b77-9825-32bb38d7128c",
+          "src": "Google Noto Emoji",
+          "icon": "🐱",
+          "label": "cat",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a cat."
+          }
+        },
+        {
+          "id": "80c0939d-4313-4db6-9f22-9e5073e7455a",
+          "src": "Google Noto Emoji",
+          "icon": "🐦",
+          "label": "bird",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a bird."
+          }
+        }
+      ]
+    },
+    {
+      "id": "f9ef0fc9-69d2-458b-9e78-54326ac5b124",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the tiger",
+      "enableDrawing": false,
+      "backgroundIcon": "🐯",
+      "interactiveElements": [
+        {
+          "id": "4b135b8a-06af-41d0-b8b5-dc2fe0dcbcd3",
+          "src": "Google Noto Emoji",
+          "icon": "🐘",
+          "label": "elephant",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a elephant."
+          }
+        },
+        {
+          "id": "0fd77b41-b1fd-4994-9533-34c5cdf440ce",
+          "src": "Google Noto Emoji",
+          "icon": "🐯",
+          "label": "tiger",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the tiger!"
+          }
+        },
+        {
+          "id": "f9697d45-6299-41b8-a101-89d62a3ff0ac",
+          "src": "Google Noto Emoji",
+          "icon": "🐷",
+          "label": "pig",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a pig."
+          }
+        }
+      ]
+    },
+    {
+      "id": "1585344a-2ac3-48be-9944-261a087acb8d",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the bear",
+      "enableDrawing": false,
+      "backgroundIcon": "🐻",
+      "interactiveElements": [
+        {
+          "id": "02aac4b6-d229-42fc-bb73-5e8df8e572e1",
+          "src": "Google Noto Emoji",
+          "icon": "🐯",
+          "label": "tiger",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a tiger."
+          }
+        },
+        {
+          "id": "be069926-4561-4e20-b8ad-0fa2e867f74b",
+          "src": "Google Noto Emoji",
+          "icon": "🐸",
+          "label": "frog",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a frog."
+          }
+        },
+        {
+          "id": "2df463de-6051-4d90-83ca-68f6e13b9e96",
+          "src": "Google Noto Emoji",
+          "icon": "🐻",
+          "label": "bear",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the bear!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "0d7a08de-5b8c-49fe-928c-e45ed0c05270",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the rabbit",
+      "enableDrawing": false,
+      "backgroundIcon": "🐰",
+      "interactiveElements": [
+        {
+          "id": "9ee954ae-d699-4bb9-8f1c-81cbe6ce392f",
+          "src": "Google Noto Emoji",
+          "icon": "🐰",
+          "label": "rabbit",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the rabbit!"
+          }
+        },
+        {
+          "id": "a2a430aa-7fa6-47fd-992f-fb6a94ae5085",
+          "src": "Google Noto Emoji",
+          "icon": "🐴",
+          "label": "horse",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a horse."
+          }
+        },
+        {
+          "id": "37a58989-6b62-4eec-95f3-90975c61a993",
+          "src": "Google Noto Emoji",
+          "icon": "🐶",
+          "label": "dog",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a dog."
+          }
+        }
+      ]
+    },
+    {
+      "id": "3f1b2ae0-4b84-4347-bc88-047670f2dc43",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the fox",
+      "enableDrawing": false,
+      "backgroundIcon": "🦊",
+      "interactiveElements": [
+        {
+          "id": "d9d88d6a-183f-420a-9042-0509032e0c75",
+          "src": "Google Noto Emoji",
+          "icon": "🦊",
+          "label": "fox",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the fox!"
+          }
+        },
+        {
+          "id": "6d7875d7-5c90-496a-b3b7-2beedbe1b39d",
+          "src": "Google Noto Emoji",
+          "icon": "🦌",
+          "label": "deer",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a deer."
+          }
+        },
+        {
+          "id": "dba3d09b-c631-423b-a151-dd5282434149",
+          "src": "Google Noto Emoji",
+          "icon": "🐶",
+          "label": "dog",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a dog."
+          }
+        }
+      ]
+    },
+    {
+      "id": "e4ac6f2b-bec4-41af-8e7b-a875c91ab2a7",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the deer",
+      "enableDrawing": false,
+      "backgroundIcon": "🦌",
+      "interactiveElements": [
+        {
+          "id": "75960a61-f48f-4b44-a866-2dcc5b702571",
+          "src": "Google Noto Emoji",
+          "icon": "🦌",
+          "label": "deer",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the deer!"
+          }
+        },
+        {
+          "id": "d0d53fd8-28ef-41c2-be11-61d0239aa2d4",
+          "src": "Google Noto Emoji",
+          "icon": "🐷",
+          "label": "pig",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a pig."
+          }
+        },
+        {
+          "id": "98d431d0-c84e-4cfc-bdf4-5dbda29caf25",
+          "src": "Google Noto Emoji",
+          "icon": "🐮",
+          "label": "cow",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a cow."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bac0f6b6-852d-470b-a545-b045fda8dced",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the penguin",
+      "enableDrawing": false,
+      "backgroundIcon": "🐧",
+      "interactiveElements": [
+        {
+          "id": "4e333fc9-ca4e-407a-ac12-69056879a3cc",
+          "src": "Google Noto Emoji",
+          "icon": "🐑",
+          "label": "sheep",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a sheep."
+          }
+        },
+        {
+          "id": "e9c818f0-807a-46de-94e1-6cd96c49de72",
+          "src": "Google Noto Emoji",
+          "icon": "🐧",
+          "label": "penguin",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the penguin!"
+          }
+        },
+        {
+          "id": "a57517da-cfeb-4bdd-a889-1cd970780e3b",
+          "src": "Google Noto Emoji",
+          "icon": "🦌",
+          "label": "deer",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a deer."
+          }
+        }
+      ]
+    },
+    {
+      "id": "23c83496-b21b-41e8-a45f-95d1d07334c2",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the frog",
+      "enableDrawing": false,
+      "backgroundIcon": "🐸",
+      "interactiveElements": [
+        {
+          "id": "03af5c37-23ad-4d00-82b9-a2bf1e6b5f86",
+          "src": "Google Noto Emoji",
+          "icon": "🐧",
+          "label": "penguin",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a penguin."
+          }
+        },
+        {
+          "id": "5ae222c7-ce31-4077-9623-e8447a4f8af2",
+          "src": "Google Noto Emoji",
+          "icon": "🐦",
+          "label": "bird",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a bird."
+          }
+        },
+        {
+          "id": "cf8a3fbc-48dd-4bd7-b452-8dcb4667bafb",
+          "src": "Google Noto Emoji",
+          "icon": "🐸",
+          "label": "frog",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the frog!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "94040f18-4c89-4da1-9775-fe90813f14fe",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the turtle",
+      "enableDrawing": false,
+      "backgroundIcon": "🐢",
+      "interactiveElements": [
+        {
+          "id": "d0872b83-a6de-4b35-bdb2-a9394c3aaf8f",
+          "src": "Google Noto Emoji",
+          "icon": "🐢",
+          "label": "turtle",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the turtle!"
+          }
+        },
+        {
+          "id": "25ac59a9-6d82-4d27-bd62-d708c0d893d5",
+          "src": "Google Noto Emoji",
+          "icon": "🐑",
+          "label": "sheep",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a sheep."
+          }
+        },
+        {
+          "id": "a011456b-6883-4dbe-a345-332740284bc3",
+          "src": "Google Noto Emoji",
+          "icon": "🦌",
+          "label": "deer",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a deer."
+          }
+        }
+      ]
+    },
+    {
+      "id": "2b32fc33-4119-455a-b8fa-31bebd2d6735",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the snake",
+      "enableDrawing": false,
+      "backgroundIcon": "🐍",
+      "interactiveElements": [
+        {
+          "id": "73f873ae-b3ba-409f-9c2f-920745022f6a",
+          "src": "Google Noto Emoji",
+          "icon": "🐍",
+          "label": "snake",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the snake!"
+          }
+        },
+        {
+          "id": "7fcfb205-c8b7-489c-bf25-0ce9420219e5",
+          "src": "Google Noto Emoji",
+          "icon": "🐻",
+          "label": "bear",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a bear."
+          }
+        },
+        {
+          "id": "0188b446-be61-4674-8981-3e0b0a69e445",
+          "src": "Google Noto Emoji",
+          "icon": "🐴",
+          "label": "horse",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a horse."
+          }
+        }
+      ]
+    },
+    {
+      "id": "34a1ce57-dc95-4f71-a79a-0d800dc2abf7",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the bird",
+      "enableDrawing": false,
+      "backgroundIcon": "🐦",
+      "interactiveElements": [
+        {
+          "id": "2935d107-87ce-4a7e-a3bc-635e21c3f5c8",
+          "src": "Google Noto Emoji",
+          "icon": "🐍",
+          "label": "snake",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a snake."
+          }
+        },
+        {
+          "id": "94ec87e8-61ff-4fba-91fb-122bf5ddc693",
+          "src": "Google Noto Emoji",
+          "icon": "🐦",
+          "label": "bird",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the bird!"
+          }
+        },
+        {
+          "id": "0a05e4ed-1e47-48f9-8ef3-0520f9bbdcb2",
+          "src": "Google Noto Emoji",
+          "icon": "🐧",
+          "label": "penguin",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a penguin."
+          }
+        }
+      ]
+    },
+    {
+      "id": "e697d504-ba3c-43c6-82f2-1305c685c0d7",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the horse",
+      "enableDrawing": false,
+      "backgroundIcon": "🐴",
+      "interactiveElements": [
+        {
+          "id": "84fee273-6a53-4e1e-9625-02732f2ba8e8",
+          "src": "Google Noto Emoji",
+          "icon": "🐴",
+          "label": "horse",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the horse!"
+          }
+        },
+        {
+          "id": "7667a2d3-aaf1-4a4e-9e9a-4e532bb6c7d0",
+          "src": "Google Noto Emoji",
+          "icon": "🐻",
+          "label": "bear",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a bear."
+          }
+        },
+        {
+          "id": "79274068-1a44-4de7-98cd-07ef5f0ee0e9",
+          "src": "Google Noto Emoji",
+          "icon": "🐍",
+          "label": "snake",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a snake."
+          }
+        }
+      ]
+    },
+    {
+      "id": "14c627d1-7362-4508-aad8-9c9950981112",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the cow",
+      "enableDrawing": false,
+      "backgroundIcon": "🐮",
+      "interactiveElements": [
+        {
+          "id": "24f8aa8f-4459-4fb2-8d18-84cfc385c775",
+          "src": "Google Noto Emoji",
+          "icon": "🐯",
+          "label": "tiger",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a tiger."
+          }
+        },
+        {
+          "id": "13fb8ae5-c519-48f8-93ff-f853b3a28849",
+          "src": "Google Noto Emoji",
+          "icon": "🐰",
+          "label": "rabbit",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a rabbit."
+          }
+        },
+        {
+          "id": "248910a3-bf9b-4537-ac48-feec9c2db099",
+          "src": "Google Noto Emoji",
+          "icon": "🐮",
+          "label": "cow",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the cow!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "51aab62b-42ca-4cf9-95b5-e69462d8a051",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the pig",
+      "enableDrawing": false,
+      "backgroundIcon": "🐷",
+      "interactiveElements": [
+        {
+          "id": "342510ea-c43d-40ea-b613-6b81944025b6",
+          "src": "Google Noto Emoji",
+          "icon": "🐷",
+          "label": "pig",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the pig!"
+          }
+        },
+        {
+          "id": "9b34289e-b3ef-4765-803f-e65542e24fe9",
+          "src": "Google Noto Emoji",
+          "icon": "🐶",
+          "label": "dog",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a dog."
+          }
+        },
+        {
+          "id": "6ef95ac3-fedc-401e-95a0-9fb4bc2f6d0b",
+          "src": "Google Noto Emoji",
+          "icon": "🐸",
+          "label": "frog",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a frog."
+          }
+        }
+      ]
+    },
+    {
+      "id": "3f2159e7-ab21-468a-b024-37e1085d7e7a",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the sheep",
+      "enableDrawing": false,
+      "backgroundIcon": "🐑",
+      "interactiveElements": [
+        {
+          "id": "80849bfd-add3-44ad-bec0-aad2b5774650",
+          "src": "Google Noto Emoji",
+          "icon": "🦆",
+          "label": "duck",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a duck."
+          }
+        },
+        {
+          "id": "f74e77d3-0ff5-4955-a8cd-1b3b3ab6fca7",
+          "src": "Google Noto Emoji",
+          "icon": "🐴",
+          "label": "horse",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a horse."
+          }
+        },
+        {
+          "id": "3223b7a4-139e-4ea8-b2d1-42dd44b01659",
+          "src": "Google Noto Emoji",
+          "icon": "🐑",
+          "label": "sheep",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the sheep!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34be98dc-7ba2-42fb-be20-e2a2c38cab73",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Find the duck",
+      "enableDrawing": false,
+      "backgroundIcon": "🦆",
+      "interactiveElements": [
+        {
+          "id": "d03a1f7c-5157-4bed-b081-677b37d65bbe",
+          "src": "Google Noto Emoji",
+          "icon": "🦆",
+          "label": "duck",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "Great job finding the duck!"
+          }
+        },
+        {
+          "id": "2a42d4e3-c719-4104-ad94-a83a9206c01c",
+          "src": "Google Noto Emoji",
+          "icon": "🐦",
+          "label": "bird",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a bird."
+          }
+        },
+        {
+          "id": "decb38aa-623a-4f72-b4ca-eb550a410a26",
+          "src": "Google Noto Emoji",
+          "icon": "🐧",
+          "label": "penguin",
+          "isCorrectTarget": false,
+          "onInteraction": {
+            "audioResponse": "That is a penguin."
+          }
+        }
+      ]
+    }
+  ]
+}
