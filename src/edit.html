@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Activity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+</head>
+<body>
+    <div id="editor-root" style="width: 100vw; height: 100vh;"></div>
+    <script>
+        window.addEventListener('load', () => {
+            if (window.Vanrolledit && window.Vanrolledit.initVanrollEditor) {
+                window.Vanrolledit.initVanrollEditor(document.getElementById('editor-root'));
+            } else {
+                console.error("Vanrolledit (editor) not found on window");
+            }
+        });
+    </script>
+</body>
+</html>
