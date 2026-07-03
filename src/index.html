@@ -1,0 +1,32 @@
+<!-- Dummy file for dev -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarlingCity</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/openmoji@14.0.0/font/openmoji.css">
+</head>
+
+<body>
+    <div id="app-root" style="width: 100vw; height: 100vh; position: relative;"></div>
+    <script>
+        // In library mode, the app is built into a UMD bundle.
+        // We wait for the window to load to ensure the library and all its assets are ready.
+        window.addEventListener('load', () => {
+            if (window.Vanrollmain && window.Vanrollmain.initVanroll) {
+                window.Vanrollmain.initVanroll(document.getElementById('app-root'));
+            } else {
+                console.error("Vanrollmain not found on window. Ensure the library script is correctly injected.");
+            }
+        });
+    </script>
+    <!-- Your bundler (like Vite or Webpack) will inject the script here -->
+    <!-- For a simple setup, you might have: <script type="module" src="src/index.ts"></script> -->
+</body>
+
+</html>
