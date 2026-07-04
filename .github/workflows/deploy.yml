@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: npm install
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JULES_NPM_TOKEN: ${{ secrets.JULES_NPM_TOKEN }}
 
       - name: Build
         run: npm run build
