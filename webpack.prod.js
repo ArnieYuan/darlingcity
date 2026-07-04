@@ -61,5 +61,11 @@ module.exports = {
             filename: 'edit/index.html',
             chunks: ['vanroll', 'edit'],
         }),
+        new CopyPlugin({
+            patterns: [
+                { from: 'activities.json', to: 'activities.json' },
+                { from: 'styles.css', to: 'styles.css' },
+            ],
+        }),
     ],
 };
