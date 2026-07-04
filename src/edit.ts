@@ -1,4 +1,4 @@
-import { initVanrollEditor } from '@ArnieYuan/vanroll_app';
+import { initVanrollEditor } from '@ArnieYuan/vanroll_app/editor';
 
 window.addEventListener('load', () => {
     const root = document.getElementById('editor-root');
