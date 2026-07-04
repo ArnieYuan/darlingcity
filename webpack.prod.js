@@ -36,18 +36,30 @@ module.exports = {
     resolve: {
         extensions: ['.ts', '.js'],
     },
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                vanroll: {
+                    test: /[\\/]node_modules[\\/]@ArnieYuan[\\/]vanroll_app[\\/]/,
+                    name: 'vanroll',
+                    chunks: 'all',
+                    enforce: true,
+                },
+            },
+        },
+    },
     mode: 'production',
     plugins: [
         new HtmlWebpackPlugin({
             title: 'DarlingCity',
             template: './src/index.html',
-            chunks: ['main'],
+            chunks: ['vanroll', 'main'],
         }),
         new HtmlWebpackPlugin({
             title: 'Edit ActivityScript',
             template: './src/edit.html',
             filename: 'edit/index.html',
-            chunks: ['edit'],
+            chunks: ['vanroll', 'edit'],
         }),
     ],
 };
