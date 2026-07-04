@@ -14,19 +14,6 @@
 
 <body>
     <div id="app-root" style="width: 100vw; height: 100vh; position: relative;"></div>
-    <script>
-        // In library mode, the app is built into a UMD bundle.
-        // We wait for the window to load to ensure the library and all its assets are ready.
-        window.addEventListener('load', () => {
-            if (window.Vanrollmain && window.Vanrollmain.initVanroll) {
-                window.Vanrollmain.initVanroll(document.getElementById('app-root'));
-            } else {
-                console.error("Vanrollmain not found on window. Ensure the library script is correctly injected.");
-            }
-        });
-    </script>
-    <!-- Your bundler (like Vite or Webpack) will inject the script here -->
-    <!-- For a simple setup, you might have: <script type="module" src="src/index.ts"></script> -->
 </body>
 
 </html>

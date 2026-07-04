@@ -8,14 +8,5 @@
 </head>
 <body>
     <div id="editor-root" style="width: 100vw; height: 100vh;"></div>
-    <script>
-        window.addEventListener('load', () => {
-            if (window.Vanrolledit && window.Vanrolledit.initVanrollEditor) {
-                window.Vanrolledit.initVanrollEditor(document.getElementById('editor-root'));
-            } else {
-                console.error("Vanrolledit (editor) not found on window");
-            }
-        });
-    </script>
 </body>
 </html>
