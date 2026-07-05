@@ -20,6 +20,6 @@
     "webpack-dev-server": "^5.2.5"
   },
   "dependencies": {
-    "@ArnieYuan/vanroll_app": "*"
+    "@ArnieYuan/vanroll_app": "latest"
   }
 }
