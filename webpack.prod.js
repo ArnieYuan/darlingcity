@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const WebpackPwaManifest = require('webpack-pwa-manifest');
+const WorkboxPlugin = require('workbox-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -65,6 +67,60 @@ module.exports = {
             patterns: [
                 { from: 'activities.json', to: 'activities.json' },
                 { from: 'styles.css', to: 'styles.css' },
+            ],
+        }),
+        new WebpackPwaManifest({
+            name: 'DarlingCity',
+            short_name: 'DarlingCity',
+            description: 'DarlingCity is an interactive early-education web application',
+            background_color: '#000000',
+            theme_color: '#000000',
+            display: 'standalone',
+            crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+            icons: [
+                {
+                    src: path.resolve('src/assets/icon.png'),
+                    sizes: [96, 128, 192, 256, 384, 512] // multiple sizes
+                }
+            ]
+        }),
+        new WorkboxPlugin.GenerateSW({
+            // these options encourage the ServiceWorkers to get in there fast
+            // and not allow any straggling "old" ServiceWorkers to hang around
+            clientsClaim: true,
+            skipWaiting: true,
+            runtimeCaching: [
+                {
+                    // Cache Google Fonts
+                    urlPattern: /^https:\/\/fonts\.googleapis\.com/,
+                    handler: 'StaleWhileRevalidate',
+                    options: {
+                        cacheName: 'google-fonts-stylesheets',
+                    },
+                },
+                {
+                    urlPattern: /^https:\/\/fonts\.gstatic\.com/,
+                    handler: 'CacheFirst',
+                    options: {
+                        cacheName: 'google-fonts-webfonts',
+                        expiration: {
+                            maxEntries: 30,
+                            maxAgeSeconds: 60 * 60 * 24 * 365, // 1 year
+                        },
+                    },
+                },
+                {
+                    // Cache Openmoji
+                    urlPattern: /^https:\/\/unpkg\.com\/openmoji@/,
+                    handler: 'CacheFirst',
+                    options: {
+                        cacheName: 'openmoji',
+                        expiration: {
+                            maxEntries: 20,
+                            maxAgeSeconds: 60 * 60 * 24 * 30, // 30 days
+                        },
+                    },
+                },
             ],
         }),
     ],
