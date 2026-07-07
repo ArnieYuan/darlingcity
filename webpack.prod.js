@@ -56,12 +56,14 @@ module.exports = {
             title: 'DarlingCity',
             template: './src/index.html',
             chunks: ['vanroll', 'main'],
+            favicon: path.resolve('src/assets/icon.png'),
         }),
         new HtmlWebpackPlugin({
             title: 'Edit ActivityScript',
             template: './src/edit.html',
             filename: 'edit/index.html',
             chunks: ['vanroll', 'edit'],
+            favicon: path.resolve('src/assets/icon.png'),
         }),
         new CopyPlugin({
             patterns: [
