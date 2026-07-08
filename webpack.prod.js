@@ -72,13 +72,15 @@ module.exports = {
             ],
         }),
         new WebpackPwaManifest({
+            inject: false,
+            fingerprints: false,
             name: 'DarlingCity',
             short_name: 'DarlingCity',
             description: 'DarlingCity is an interactive early-education web application',
             background_color: '#000000',
             theme_color: '#000000',
             display: 'standalone',
-            crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+            start_url: '.',
             icons: [
                 {
                     src: path.resolve('src/assets/icon.png'),
