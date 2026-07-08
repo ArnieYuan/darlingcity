@@ -77,8 +77,8 @@ module.exports = {
             name: 'DarlingCity',
             short_name: 'DarlingCity',
             description: 'DarlingCity is an interactive early-education web application',
-            background_color: '#000000',
-            theme_color: '#000000',
+            background_color: '#8dd7f2',
+            theme_color: '#8dd7f2',
             display: 'standalone',
             start_url: '.',
             icons: [
