@@ -814,10 +814,11 @@
           "label": "apple",
           "isCorrectTarget": true,
           "onInteraction": {
-            "audioResponse": "{{activity.count}}! Three apples! Great job!"
+            "audioResponse": "{{activity.count}}!"
           }
         }
-      ]
+      ],
+      "audioFinish": "{{activity.total}} apples! Great job!"
     },
     {
       "id": "e7da734d-0622-41ed-bb8b-d0027392c175",
@@ -873,10 +874,11 @@
           "label": "star",
           "isCorrectTarget": true,
           "onInteraction": {
-            "audioResponse": "{{activity.count}}! Five stars! You are amazing!"
+            "audioResponse": "{{activity.count}}!"
           }
         }
-      ]
+      ],
+      "audioFinish": "{{activity.total}} stars! You are amazing!"
     },
     {
       "id": "e022c683-f6fa-4c74-9994-ed07c79f5384",
@@ -922,10 +924,11 @@
           "label": "bird",
           "isCorrectTarget": true,
           "onInteraction": {
-            "audioResponse": "{{activity.count}}! Four birds! Tweet tweet!"
+            "audioResponse": "{{activity.count}}!"
           }
         }
-      ]
+      ],
+      "audioFinish": "{{activity.total}} birds! Tweet tweet!"
     },
     {
       "id": "9537bb77-7464-47c3-898e-bd716998fddb",
