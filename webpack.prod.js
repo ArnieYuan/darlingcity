@@ -81,11 +81,13 @@ module.exports = {
             theme_color: '#8dd7f2',
             display: 'standalone',
             start_url: '.',
+            ios: true,
             icons: [
                 {
                     src: path.resolve('src/assets/icon.png'),
                     sizes: [96, 128, 192, 256, 384, 512],
-                    purpose: 'any maskable'
+                    purpose: 'any maskable',
+                    ios: true
                 }
             ]
         }),
