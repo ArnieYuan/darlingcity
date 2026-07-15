@@ -1,0 +1,25 @@
+{
+  "activities": [
+    {
+      "id": "9537bb77-7464-47c3-898e-bd716998fddb",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Let's color the kitty cat! Use your finger to paint.",
+      "enableDrawing": true,
+      "backgroundIcon": "🐱︎"
+    },
+    {
+      "id": "8467b879-0f11-4da4-be53-f0d0767f0330",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Color the beautiful butterfly! What colors will you use?",
+      "enableDrawing": true,
+      "backgroundIcon": "🦋︎"
+    },
+    {
+      "id": "e07fa79f-ac4f-4277-b026-f8a9066c14c0",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Let's color the pretty flower!",
+      "enableDrawing": true,
+      "backgroundIcon": "🌸︎"
+    }
+  ]
+}

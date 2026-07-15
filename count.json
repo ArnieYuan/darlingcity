@@ -1,0 +1,154 @@
+{
+  "activities": [
+    {
+      "id": "889031e8-8144-4a72-ab7b-7cf7e8c2707c",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Let's count the three red apples! Tap each one.",
+      "enableDrawing": false,
+      "backgroundIcon": "🍎",
+      "interactiveElements": [
+        {
+          "id": "880566aa-7fb5-41ae-86f7-787380e946e3",
+          "src": "Google Noto Emoji",
+          "icon": "🍎",
+          "label": "apple",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "21f3f05d-f52a-4f56-80ed-004d095bc4bc",
+          "src": "Google Noto Emoji",
+          "icon": "🍎",
+          "label": "apple",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "7eb0cae5-6802-474f-a3fc-7a7a07af3b71",
+          "src": "Google Noto Emoji",
+          "icon": "🍎",
+          "label": "apple",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        }
+      ],
+      "audioFinish": "{{activity.total}} apples! Great job!"
+    },
+    {
+      "id": "e7da734d-0622-41ed-bb8b-d0027392c175",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Can you count these five bright stars?",
+      "enableDrawing": false,
+      "backgroundIcon": "⭐",
+      "interactiveElements": [
+        {
+          "id": "87c0cd18-9092-4aa1-9379-d28797657506",
+          "src": "Google Noto Emoji",
+          "icon": "⭐",
+          "label": "star",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "a4fb196d-907f-46be-9d41-0645b3f15f0e",
+          "src": "Google Noto Emoji",
+          "icon": "⭐",
+          "label": "star",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "b1b31b70-0403-4096-99f8-908b6a53c600",
+          "src": "Google Noto Emoji",
+          "icon": "⭐",
+          "label": "star",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "18ace5c8-4ff8-4adc-9256-8ab5a3057255",
+          "src": "Google Noto Emoji",
+          "icon": "⭐",
+          "label": "star",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "a0ab6e71-cf34-4f07-91d3-365ec4aaeb49",
+          "src": "Google Noto Emoji",
+          "icon": "⭐",
+          "label": "star",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        }
+      ],
+      "audioFinish": "{{activity.total}} stars! You are amazing!"
+    },
+    {
+      "id": "e022c683-f6fa-4c74-9994-ed07c79f5384",
+      "gameMechanic": "dwell_click",
+      "audioIntro": "Let's count four little birds!",
+      "enableDrawing": false,
+      "backgroundIcon": "🐦",
+      "interactiveElements": [
+        {
+          "id": "8eea8ff5-f7ab-4b89-9e48-bbb62c93e084",
+          "src": "Google Noto Emoji",
+          "icon": "🐦",
+          "label": "bird",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "0f16ce01-679c-4eb6-8cae-fcfbf0bcbcb3",
+          "src": "Google Noto Emoji",
+          "icon": "🐦",
+          "label": "bird",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "20944d2a-120f-4c86-8fa2-9411533bf52d",
+          "src": "Google Noto Emoji",
+          "icon": "🐦",
+          "label": "bird",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        },
+        {
+          "id": "34cb94d5-8065-49c1-99c6-6df39c0c7890",
+          "src": "Google Noto Emoji",
+          "icon": "🐦",
+          "label": "bird",
+          "isCorrectTarget": true,
+          "onInteraction": {
+            "audioResponse": "{{activity.count}}!"
+          }
+        }
+      ],
+      "audioFinish": "{{activity.total}} birds! Tweet tweet!"
+    }
+  ]
+}
