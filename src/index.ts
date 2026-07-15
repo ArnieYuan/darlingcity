@@ -17,14 +17,14 @@ window.addEventListener('load', () => {
         gallery.appendChild(title);
 
         const categories = [
-            { name: 'Find an Animal', file: 'animal.json' },
-            { name: 'Count', file: 'count.json' },
-            { name: 'Free Drawing', file: 'drawing.json' }
+            { name: 'Find an Animal', file: 'animal.json', icon: '🐾' },
+            { name: 'Count', file: 'count.json', icon: '🔢' },
+            { name: 'Free Drawing', file: 'drawing.json', icon: '🎨' }
         ];
 
         categories.forEach(cat => {
             const btn = document.createElement('button');
-            btn.innerText = cat.name;
+            btn.innerText = `${cat.icon} ${cat.name}`;
             btn.style.padding = '20px 40px';
             btn.style.fontSize = '24px';
             btn.style.borderRadius = '10px';
@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
             btn.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
 
             btn.addEventListener('click', () => {
-                root.innerHTML = ''; // clear gallery
+                gallery.remove();
                 initVanroll(root, { activitiesUrl: cat.file });
             });
 
