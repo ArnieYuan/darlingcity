@@ -17,9 +17,9 @@ window.addEventListener('load', () => {
         gallery.appendChild(title);
 
         const categories = [
-            { name: 'Find an Animal', file: 'find_animal.json' },
+            { name: 'Find an Animal', file: 'animal.json' },
             { name: 'Count', file: 'count.json' },
-            { name: 'Free Drawing', file: 'free_drawing.json' }
+            { name: 'Free Drawing', file: 'drawing.json' }
         ];
 
         categories.forEach(cat => {
