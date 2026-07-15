@@ -67,7 +67,9 @@ module.exports = {
         }),
         new CopyPlugin({
             patterns: [
-                { from: 'activities.json', to: 'activities.json' },
+                { from: 'find_animal.json', to: 'find_animal.json' },
+                { from: 'count.json', to: 'count.json' },
+                { from: 'free_drawing.json', to: 'free_drawing.json' },
                 { from: 'styles.css', to: 'styles.css' },
             ],
         }),

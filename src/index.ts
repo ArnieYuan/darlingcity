@@ -3,7 +3,45 @@ import { initVanroll } from '@ArnieYuan/vanroll_app';
 window.addEventListener('load', () => {
     const root = document.getElementById('app-root');
     if (root) {
-        initVanroll(root);
+        const gallery = document.createElement('div');
+        gallery.style.display = 'flex';
+        gallery.style.flexDirection = 'column';
+        gallery.style.alignItems = 'center';
+        gallery.style.justifyContent = 'center';
+        gallery.style.height = '100%';
+        gallery.style.gap = '20px';
+        gallery.style.backgroundColor = '#8dd7f2';
+
+        const title = document.createElement('h1');
+        title.innerText = 'Select a Category';
+        gallery.appendChild(title);
+
+        const categories = [
+            { name: 'Find an Animal', file: 'find_animal.json' },
+            { name: 'Count', file: 'count.json' },
+            { name: 'Free Drawing', file: 'free_drawing.json' }
+        ];
+
+        categories.forEach(cat => {
+            const btn = document.createElement('button');
+            btn.innerText = cat.name;
+            btn.style.padding = '20px 40px';
+            btn.style.fontSize = '24px';
+            btn.style.borderRadius = '10px';
+            btn.style.border = 'none';
+            btn.style.backgroundColor = '#fff';
+            btn.style.cursor = 'pointer';
+            btn.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
+
+            btn.addEventListener('click', () => {
+                root.innerHTML = ''; // clear gallery
+                initVanroll(root, { activitiesUrl: cat.file });
+            });
+
+            gallery.appendChild(btn);
+        });
+
+        root.appendChild(gallery);
     } else {
         console.error("app-root not found");
     }
