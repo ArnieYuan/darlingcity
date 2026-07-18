@@ -74,8 +74,9 @@ module.exports = {
             ],
         }),
         new WebpackPwaManifest({
-            inject: false,
+            inject: true,
             fingerprints: false,
+            publicPath: './',
             name: 'DarlingCity',
             short_name: 'DarlingCity',
             description: 'DarlingCity is an interactive early-education web application',
