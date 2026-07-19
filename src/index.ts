@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
         gallery.style.backgroundColor = '#8dd7f2';
 
         const title = document.createElement('h1');
-        title.innerText = 'Select a Category';
+        title.innerText = 'Click to Start';
         gallery.appendChild(title);
 
         const btnContainer = document.createElement('div');
